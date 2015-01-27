@@ -51,13 +51,6 @@ exports.fn = function(item, params) {
                     item.removeAttr(attr.name);
                 }
             });
-
-            item.addAttr({
-                name: 'fill',
-                value: 'none',
-                prefix: '',
-                local: 'fill'
-            });
         }
 
     }
